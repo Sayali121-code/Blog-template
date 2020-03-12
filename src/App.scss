@@ -1,0 +1,127 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+.container-fluid {
+  text-align: center;
+  h1 {
+    color: #e22b2b;
+    font-weight: bold;
+  }
+  .display-details {
+    margin-top: 5rem;
+  }
+  &.form {
+    background-image: url(https://cdn.pixabay.com/photo/2016/08/12/03/41/background-1587514_960_720.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 63rem;
+    padding-top: 15rem;
+  }
+  .form-border {
+    border: 2px solid #688008;
+    //  text-align: center;
+    width: 60rem;
+    padding: 3rem;
+    margin: auto;
+    border-radius: 8px;
+    table {
+      margin: auto;
+      tr {
+        td {
+          width: 10rem;
+          text-align: left;
+          font-weight: bold;
+          vertical-align: top;
+          padding-left: 1rem;
+        }
+      }
+    }
+  }
+
+  input[type="text"] {
+    width: 20rem;
+    border-radius: 0.4rem;
+    border-style: none;
+    padding: 0.4rem;
+    margin-bottom: 0.5rem;
+  }
+  span {
+    vertical-align: top;
+    color: red;
+  }
+  textarea {
+    width: 20rem;
+    height: 12rem;
+    width: 20rem;
+    border-radius: 0.4rem;
+    border-style: none;
+    padding: 0.4rem;
+    margin-bottom: 0.5rem;
+  }
+  button {
+    background-color: olivedrab;
+    padding: 0.5rem 2rem;
+    color: #ffffff;
+    font-weight: bold;
+    border: 1px solid #00000070;
+    border-radius: 1rem;
+  }
+  button:hover {
+    border: 1px solid #ccc3c3;
+  }
+}
+.blog-page {
+  .d-flex.align-items-center {
+    //border: 1px solid #000000;
+    margin-bottom: 1rem;
+    padding: 1rem 15rem 1rem 15rem;
+    background-color: #8080802e;
+  }
+  .card {
+    border: none !important;
+  }
+  a {
+    text-decoration: none !important;
+  }
+
+  p.info-para {
+    width: 70rem !important;
+    margin: auto;
+    text-align: center;
+  }
+}
